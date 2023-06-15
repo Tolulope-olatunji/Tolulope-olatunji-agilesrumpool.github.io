@@ -1567,6 +1567,7 @@ blockquote p > cite {
   margin-bottom: 10px;
   resize: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black
 }
 
 .gtco-more {
