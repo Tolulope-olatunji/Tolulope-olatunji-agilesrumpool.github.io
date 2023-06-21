@@ -13,16 +13,27 @@
 body {
   font-family: "Merriweather", serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height:1;
   color: #777;
-  background: #fff;
+  size: fixed;
+  
+
+
+  
 }
 
+#img_logo{
+  padding: 20px;
+}
+.left{
+  float: left;
+}
 #page {
   position: relative;
-  overflow-x: hidden;
-  overflow-y: auto;
+  
+  overflow-x: fixed;
+  overflow-y: fixed;
   width: 100%;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -445,8 +456,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #gtco-footer {
   background: #262626;
-  padding: 7em 0 0 0 !important;
-  margin-bottom: 0 !important;
+  padding: 4em 0 0 0 !important;
+  
+  margin-bottom: 4 !important;
   width: 100%;
   float: left;
   bottom: 0;
@@ -455,12 +467,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
 }
 #gtco-footer .gtco-cta {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+
 }
 #gtco-footer .gtco-cta h3 {
   color: #fff;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 100;
 }
 #gtco-footer .gtco-cta .btn-white {
   padding: 15px 20px !important;
@@ -526,8 +539,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-footer .gtco-copyright {
   background: #1a1a1a;
   padding: 30px 0;
-  float: left;
-  width: 100%;
+   float: left; 
+  width: 50%;
 }
 #gtco-footer .gtco-copyright p {
   font-family: "Montserrat", sans-serif;
@@ -1567,8 +1580,9 @@ blockquote p > cite {
   margin-bottom: 10px;
   resize: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:black
+  color: #000;
 }
+
 
 .gtco-more {
   font-family: "Montserrat", sans-serif;
